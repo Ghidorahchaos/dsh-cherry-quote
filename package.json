@@ -1,0 +1,66 @@
+{
+  "name": "dsh-cherry-quote",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Cherry-style quote for DeepSeek Harness: select message text, quote it into the composer, hover for the full quote, remove with X or Backspace.",
+  "icon": "./icon.svg",
+  "license": "MIT",
+  "author": "Gidhorahchaos (https://github.com/Gidhorahchaos)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gidhorahchaos/dsh-cherry-quote.git"
+  },
+  "homepage": "https://github.com/Gidhorahchaos/dsh-cherry-quote#readme",
+  "bugs": {
+    "url": "https://github.com/Gidhorahchaos/dsh-cherry-quote/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "quote",
+    "cherry"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-chat",
+        "@deepseek-ai/dsh-client-ui-input-trigger"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=20",
+    "dsh": ">=0.2.1-rc.5"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "test": "node test/quote.test.mjs",
+    "check": "node --check client.js && node --check index.js"
+  }
+}
