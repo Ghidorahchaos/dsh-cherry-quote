@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "CherryStudio版上下文引用功能",
+    "description": "划选消息文字，以蓝色「引用」小块插入输入框；悬停看全文，点 ✕ 或按 Backspace 删除。"
+  }
+}
