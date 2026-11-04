@@ -5,14 +5,14 @@
   "description": "Cherry-style quote for DeepSeek Harness: select message text, quote it into the composer, hover for the full quote, remove with X or Backspace.",
   "icon": "./icon.svg",
   "license": "MIT",
-  "author": "Gidhorahchaos (https://github.com/Gidhorahchaos)",
+  "author": "Ghidorahchaos (https://github.com/Ghidorahchaos)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Gidhorahchaos/dsh-cherry-quote.git"
+    "url": "git+https://github.com/Ghidorahchaos/dsh-cherry-quote.git"
   },
-  "homepage": "https://github.com/Gidhorahchaos/dsh-cherry-quote#readme",
+  "homepage": "https://github.com/Ghidorahchaos/dsh-cherry-quote#readme",
   "bugs": {
-    "url": "https://github.com/Gidhorahchaos/dsh-cherry-quote/issues"
+    "url": "https://github.com/Ghidorahchaos/dsh-cherry-quote/issues"
   },
   "keywords": [
     "dsh",

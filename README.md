@@ -5,9 +5,9 @@
 
 划选对话里的一段文字，右键「引用」；这段原文会变成输入框里的蓝色「引用」小块。悬停可看完整原文，点 `✕` 或按 Backspace 一次删除。发送后，引用会作为 `<blockquote>` 原文交给模型，并在消息里显示为「引用」小块。
 
-![输入框引用块](https://raw.githubusercontent.com/Gidhorahchaos/dsh-cherry-quote/main/assets/screenshot-input.png)
+![输入框引用块](https://raw.githubusercontent.com/Ghidorahchaos/dsh-cherry-quote/main/assets/screenshot-input.png)
 
-![发送后引用块](https://raw.githubusercontent.com/Gidhorahchaos/dsh-cherry-quote/main/assets/screenshot-sent.png)
+![发送后引用块](https://raw.githubusercontent.com/Ghidorahchaos/dsh-cherry-quote/main/assets/screenshot-sent.png)
 
 ## 功能
 
