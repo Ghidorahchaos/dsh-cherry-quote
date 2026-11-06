@@ -33,6 +33,30 @@
 dsh plugin --profile <profile> add dsh-cherry-quote
 ```
 
+## 回退到 1.0.0
+
+如果 1.0.1 在你的环境有问题，可以装回 1.0.0。
+
+### npm 指定版本
+
+```sh
+dsh plugin --profile <profile> add dsh-cherry-quote@1.0.0
+```
+
+Desktop 端可在 **Plugins → Add plugin** 输入：
+
+```text
+dsh-cherry-quote@1.0.0
+```
+
+### 直接使用 1.0.0 tarball
+
+```text
+https://registry.npmjs.org/dsh-cherry-quote/-/dsh-cherry-quote-1.0.0.tgz
+```
+
+市场页面通常只展示 `latest`，不提供旧版本选择；回退时请使用上面的指定版本命令或 tarball。
+
 ## 使用
 
 1. 在任意消息里用鼠标划选一段文字；
