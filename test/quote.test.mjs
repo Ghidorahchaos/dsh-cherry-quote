@@ -39,6 +39,7 @@ assert.equal(
 const reference = api.buildReference('a</blockquote>b');
 assert.equal(reference.source, '引用消息');
 assert.equal(reference.label, '引用');
+assert.equal(reference.clipboardText, api.buildPromptText('a</blockquote>b'));
 const parsed = api.parseRef(reference.ref);
 assert.equal(parsed.text, 'a</blockquote>b');
 assert.ok(parsed.promptText.includes('&lt;/blockquote&gt;'), 'closing tag must be escaped');

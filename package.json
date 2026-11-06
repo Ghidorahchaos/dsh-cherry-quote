@@ -1,6 +1,6 @@
 {
   "name": "dsh-cherry-quote",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Cherry-style quote for DeepSeek Harness: select message text, quote it into the composer, hover for the full quote, remove with X or Backspace.",
   "icon": "./icon.svg",

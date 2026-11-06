@@ -72,7 +72,7 @@ window.__ModuleLoader__.load({
         source: SOURCE,
         ref: JSON.stringify({ role, seq, text }),
         label: '引用',
-        clipboardText: '【引用 · ' + roleLabel(role) + '】',
+        clipboardText: buildPromptText(text),
       };
     }
 
