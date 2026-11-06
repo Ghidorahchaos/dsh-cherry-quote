@@ -1,7 +1,7 @@
 # CherryStudio版上下文引用功能
 
 > 把 Cherry Studio 的「引用选中文本」带到 DeepSeek Harness。  
-> 插件包名：`dsh-cherry-quote` · 版本：`1.0.0`
+> 插件包名：`dsh-cherry-quote` · 版本：`1.0.1`
 
 划选对话里的一段文字，右键「引用」；这段原文会变成输入框里的蓝色「引用」小块。悬停可看完整原文，点 `✕` 或按 Backspace 一次删除。发送后，引用会作为 `<blockquote>` 原文交给模型，并在消息里显示为「引用」小块。
 
